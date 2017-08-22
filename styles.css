@@ -1,0 +1,183 @@
+/*  Styles.css
+    Author PAKHAPONG KANCHANAMAI
+    Date 20/08/2017 */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+html {
+  background: #ddd;
+  -webkit-font-smoothing: antialiased; }
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+  background: #fff;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+  margin: 0 auto;
+  max-width: 800px;
+  min-width: 800px;
+  padding: 0em 0em 0em; }
+
+h1 {
+  font-size: 3rem;
+  font-weigth: 700;
+  font-line-height: 1.3;
+  font-color: #FFFFFF; }
+
+.div1 {
+  height: 530px;
+  background: url(screenshots/im.png);
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .div1 h1 {
+    padding-top: 80px;
+    padding-left: 100px;
+    color: #FFFFFF;
+    display: inline-block; }
+  .div1 h2 {
+    padding-left: 20px;
+    color: #E8CA10;
+    display: inline-block;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 3rem; }
+
+.about {
+  background-color: #222222;
+  display: -webkit-flex;
+  display: flex; }
+  .about .am1 {
+    width: 20%;
+    margin: 30px; }
+    .about .am1 h2 {
+      color: #FFFFFF;
+      font-size: 1.5rem;
+      font-family: 'Permanent Marker', cursive; }
+    .about .am1 a {
+      color: #E8CA10;
+      font-size: 1.5rem;
+      font-family: 'Permanent Marker', cursive; }
+  .about .am2 {
+    margin-top: 20px;
+    width: 60%; }
+    .about .am2 h3 {
+      color: #FFFFFF;
+      margin: 10px;
+      font-size: 1rem; }
+    .about .am2 p {
+      color: #BEBEBE;
+      margin: 10px;
+      font-size: 0.8rem; }
+    .about .am2 h2 {
+      color: #FFFFFF;
+      margin: 30px;
+      font-family: 'Permanent Marker', cursive;
+      font-size: 1.4rem; }
+  .about .am3 {
+    margin-bottom: -5px; }
+
+.div3 {
+  height: 860px;
+  background: #F8F8F8; }
+  .div3 .MG1 {
+    display: -webkit-flex;
+    display: flex;
+    padding-top: 20px;
+    padding-left: 170px;
+    margin: 5px; }
+    .div3 .MG1 .MG11 {
+      padding-left: 30px;
+      padding-top: 50px; }
+    .div3 .MG1 h2 {
+      color: #222222;
+      font-size: 1.5rem;
+      font-family: 'Permanent Marker', cursive; }
+    .div3 .MG1 a {
+      color: #E8CA10;
+      font-size: 1.5rem;
+      font-family: 'Permanent Marker', cursive; }
+  .div3 .MG2 {
+    padding-left: 130px; }
+  .div3 .MG3 {
+    padding-left: 80px; }
+  .div3 .MG4 {
+    padding-left: 130px; }
+
+.div4 {
+  height: 120px;
+  background-color: #222222;
+  display: -webkit-flex;
+  display: flex;
+  padding: 20px; }
+  .div4 .MC01 h2 {
+    padding-left: 40px;
+    color: #E8CA10;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1.8rem; }
+  .div4 .MC02 {
+    padding-top: 10px;
+    padding-left: 60px; }
+    .div4 .MC02 h2 {
+      color: #B1B1B1;
+      font-size: 1rem; }
+    .div4 .MC02 a {
+      color: #818181;
+      font-size: .7rem; }
+  .div4 .MC03 {
+    padding-top: 10px;
+    padding-left: 60px; }
+    .div4 .MC03 h2 {
+      color: #B1B1B1;
+      font-size: 1rem; }
+    .div4 .MC03 .MC031 {
+      padding-top: 10px; }
+      .div4 .MC03 .MC031 img {
+        margin: 2px; }
+
+.foot {
+  background-color: #111111;
+  text-align: center;
+  padding: 5px; }
+  .foot h3 {
+    color: #818181;
+    font-size: .7rem; }
